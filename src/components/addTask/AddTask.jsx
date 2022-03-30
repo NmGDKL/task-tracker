@@ -44,7 +44,7 @@ const handleSave = (e) => {
         </div>
         <div className="form-control">
         <label htmlFor="date" >Day & Time</label>
-        <input onChange={saveDate} type="date" value={date} placeholder="Add Day & Time" id="date" name="date"/>
+        <input onChange={saveDate} type="datetime-local" value={date} placeholder="Add Day & Time" id="date" name="date"/>
         </div>
         <button onClick={handleSave}
               className="btn btn-block">Save Task</button>
